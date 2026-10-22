@@ -1,0 +1,106 @@
+
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 1rem;
+    padding: 0 30px 0 30px;
+    max-width: clamp(80ch, 80ch, 95vw);
+    margin:auto;
+    margin-top:clamp(72px, 72px, 5vh);
+    margin-bottom:clamp(72px, 72px, 7.5vh);
+}
+
+    /* adds space between the intro and each issue */
+.container{
+    margin-bottom: 2.5rem;
+}
+
+h1, h2{
+    font-family: "Sofia Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1{
+    font-size:2.5rem;
+    text-align: center;
+    max-width: 30ch;
+    margin-bottom: 1rem;
+    line-height:105%;
+}
+
+h2{
+    font-size:1.4375rem;
+    line-height: 105%;
+    margin-bottom: -.66rem;
+}
+
+
+p, .byline, .date {
+  font-family: "Sofia Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 145%;
+}
+
+/* a little visual cue for the start of the article */
+.lead-in{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: .925rem;
+    letter-spacing: .025rem;
+    line-height: 133%;
+}
+
+.byline, .date {
+    text-align: center;
+    line-height: 90%;
+    margin:0;
+}
+
+.byline {
+    font-weight: 800;
+}
+
+/* groups the byline/date line */
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+img{
+    width:100%;
+}
+
+figure{
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+
+figcaption{
+font-family: "Sofia Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 145%;
+}
+
+.credit{
+    color:#ababab;
+}
+
+
