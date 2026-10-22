@@ -103,7 +103,7 @@ font-family: "Sofia Sans", sans-serif;
     color:#ababab;
 }
 
-a{
+a, a:visited{
     color:#000 !important;
 }
 
